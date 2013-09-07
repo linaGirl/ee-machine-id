@@ -1,0 +1,25 @@
+{
+      "name"                    : "ee-machine-id"
+    , "description"             : "unique machine identifier reader ( using network interfaces mac addresses & cpus )"
+    , "version"                 : "0.1.0"
+    , "homepage"                : "https://github.com/eventEmitter/ee-machine-id"
+    , "author"                  : "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)" 
+    , "licence"                 : "MIT"
+    , "os"                      : "linux"
+    , "repository": {
+        "url"                   : "https://github.com/eventEmitter/ee-machine-id"
+    }
+    , "engines": {
+        "node"                  : "*"
+    }
+    , "bugs": {
+        "url"                   : "https://github.com/eventEmitter/ee-machine-id/issues"
+    }
+    , "dependencies": {
+          "ee-class"            : ">=0.1.3"
+        , "ee-log"              : "*"
+        , "ee-waiter"           : "*"
+    }
+    , "devDependencies":        {}
+    , "optionalDependencies":   {}
+}
