@@ -16,8 +16,8 @@
         "url"                   : "https://github.com/eventEmitter/ee-machine-id/issues"
     }
     , "dependencies": {
-          "ee-class"            : "0.3.x"
-        , "ee-log"              : "0.2.x"
+          "ee-class"            : "~1.4.0"
+        , "ee-log"              : "~2.0.2"
         , "ee-waiter"           : "0.1.x"
     }
     , "devDependencies":        {}
