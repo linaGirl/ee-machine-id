@@ -1,5 +1,7 @@
 ## ee-machine-id
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/eventEmitter/ee-machine-id.svg)](https://greenkeeper.io/)
+
 creates a uniquie id for the macine this is running on. the id is created using all mac addresses of the system, the cpu model and the systems total memory amount.
 the id is returned in form of a md5 hash.
 
