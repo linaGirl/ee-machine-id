@@ -1,22 +1,19 @@
 ## ee-machine-id
 
-creates a uniquie id for the macine this is running on. the id is created using all mac addresses of the system, the cpu model and the systems total memory amount.
-the id is returned in form of a md5 hash.
+Creates a unique id for the machine this is running on. The id is 
+created using all mac addresses of the system, the cpu model and 
+the systems total memory amount. the id is returned in form of a 
+md5 hash.
 
-## ee software
 
-All ee modules are free and MIT licenced. They never block, they never store data on the disk if not needed. They are built for creating fast & scalable applications.
+```javascript
 
-## installation
-	
-	npm install ee-machine-id
+import machineId from 'ee-machine-id';
 
-##
+// get id
+const id = machineId(); 
 
-	var machineId = require( "ee-machine-id" );
+console.log(id) // 693d3ea0bbf68c98e08da139ff0f412b
+```
 
-	console.log( machineId.id ); // undefined because the information was not laoded yet
-
-	machineId.get( function( id ){
-		console.log( id ); // 5ccbe155d5440cd06e3664c0ae3e811e
-	} );
+Requires es6 modules!

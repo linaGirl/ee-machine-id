@@ -1,25 +1,30 @@
 {
-      "name"                    : "ee-machine-id"
-    , "description"             : "unique machine identifier reader ( using network interfaces mac addresses & cpus )"
-    , "version"                 : "0.1.1"
-    , "homepage"                : "https://github.com/eventEmitter/ee-machine-id"
-    , "author"                  : "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)" 
-    , "licence"                 : "MIT"
-    , "os"                      : "!win"
-    , "repository": {
-        "url"                   : "https://github.com/eventEmitter/ee-machine-id"
-    }
-    , "engines": {
-        "node"                  : "*"
-    }
-    , "bugs": {
-        "url"                   : "https://github.com/eventEmitter/ee-machine-id/issues"
-    }
-    , "dependencies": {
-          "ee-class"            : "0.3.x"
-        , "ee-log"              : "0.2.x"
-        , "ee-waiter"           : "0.1.x"
-    }
-    , "devDependencies":        {}
-    , "optionalDependencies":   {}
+  "name": "ee-machine-id",
+  "version": "1.0.0",
+  "description": "Unique identifier created from hardware information",
+  "main": "src/machineId.mjs",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "section-tests": "^2.1.1"
+  },
+  "scripts": {
+    "test": "node --experimental-modules ./node_modules/.bin/section ./test/*.mjs --dev --subenv-testing --log-level=error+ --log-module=*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eventEmitter/ee-machine-id.git"
+  },
+  "keywords": [
+    "machine-id"
+  ],
+  "author": "Lina van der Weg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eventEmitter/ee-machine-id/issues"
+  },
+  "homepage": "https://github.com/eventEmitter/ee-machine-id#readme"
 }
