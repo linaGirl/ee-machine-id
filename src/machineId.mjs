@@ -2,7 +2,7 @@
 
 
 import os from 'os';
-import {createHash} from 'crypto';
+import hash from './hash';
 
 
 export default function() {
@@ -32,5 +32,5 @@ export default function() {
     machineIdString += cpuInfo[0].model+'/'+cpuInfo.length;
 
 
-    return createHash('md5').update(machineIdString).digest('HEX');
+    return hash(machineIdString);
 }
