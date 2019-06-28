@@ -2,7 +2,7 @@
 
 
 import os from 'os';
-import hash from './hash';
+import hash from './hash.js';
 
 
 export default function() {

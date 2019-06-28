@@ -1,6 +1,6 @@
 'use strict';
 
-import machineId from '../';
+import machineId from '../src/machineId.mjs';
 import section from 'section-tests';
 import assert from 'assert';
 

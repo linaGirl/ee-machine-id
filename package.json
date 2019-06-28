@@ -1,6 +1,6 @@
 {
   "name": "ee-machine-id",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Unique identifier created from hardware information",
   "main": "src/machineId.mjs",
   "directories": {
@@ -9,7 +9,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "section-tests": "^2.1.1"
+    "section-tests": "^2.2.4"
   },
   "scripts": {
     "test": "node --experimental-modules ./node_modules/.bin/section ./test/*.mjs --dev --subenv-testing --log-level=error+ --log-module=*"
