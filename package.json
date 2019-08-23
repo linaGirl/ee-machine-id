@@ -1,6 +1,6 @@
 {
   "name": "ee-machine-id",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Unique identifier created from hardware information",
   "main": "src/machineId.mjs",
   "directories": {
